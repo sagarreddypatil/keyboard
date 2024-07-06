@@ -9,61 +9,55 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Export production files
-        working-directory: ./mykb
         id: production
         uses: sparkengineering/kicad-action@v2
         if: '!cancelled()'
         with:
-          kicad_sch: mykb.kicad_sch
+          kicad_sch: my-project.kicad_sch
           sch_pdf: true # Generate PDF
           sch_bom: true # Generate BOM
-          kicad_pcb: mykb.kicad_pcb
+          kicad_pcb: my-project.kicad_pcb
           pcb_gerbers: true # Generate Gerbers
 
       # Upload production files only if generation succeeded
       - name: Upload production files
-        working-directory: ./mykb
         uses: actions/upload-artifact@v4
         if: ${{ !cancelled() && steps.production.conclusion == 'success' }}
         with:
           name: Production files
           path: |
-            ${{ github.workspace }}/sch.pdf
-            ${{ github.workspace }}/bom.csv
-            ${{ github.workspace }}/gbr.zip
+            ${{ github.workspace }}/mykb/sch.pdf
+            ${{ github.workspace }}/mykb/bom.csv
+            ${{ github.workspace }}/mykb/gbr.zip
 
       - name: Run KiCad ERC
-        working-directory: ./mykb
         id: erc
         uses: sparkengineering/kicad-action@v2
         if: '!cancelled()'
         with:
-          kicad_sch: mykb.kicad_sch
+          kicad_sch: my-project.kicad_sch
           sch_erc: true
 
       - name: Run KiCad DRC
-        working-directory: ./mykb
         id: drc
         uses: sparkengineering/kicad-action@v2
         if: '!cancelled()'
         with:
-          kicad_pcb: mykb.kicad_pcb
+          kicad_pcb: my-project.kicad_pcb
           pcb_drc: true
 
       # Upload ERC report only if ERC failed
       - name: Upload ERC report
-        working-directory: ./mykb
         uses: actions/upload-artifact@v4
         if: ${{ failure() && steps.erc.conclusion == 'failure' }}
         with:
           name: erc.rpt
-          path: ${{ github.workspace }}/erc.rpt
+          path: ${{ github.workspace }}/mykb/erc.rpt
 
       # Upload DRC report only if DRC failed
       - name: Upload DRC report
-        working-directory: ./mykb
         uses: actions/upload-artifact@v4
         if: ${{ failure() && steps.drc.conclusion == 'failure' }}
         with:
           name: drc.rpt
-          path: ${{ github.workspace }}/drc.rpt
+          path: ${{ github.workspace }}/mykb/drc.rpt
