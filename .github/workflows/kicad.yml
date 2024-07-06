@@ -13,10 +13,10 @@ jobs:
         uses: sparkengineering/kicad-action@v2
         if: '!cancelled()'
         with:
-          kicad_sch: my-project.kicad_sch
+          kicad_sch: mykb/mykb.kicad_sch
           sch_pdf: true # Generate PDF
           sch_bom: true # Generate BOM
-          kicad_pcb: my-project.kicad_pcb
+          kicad_pcb: mykb/mykb.kicad_pcb
           pcb_gerbers: true # Generate Gerbers
 
       # Upload production files only if generation succeeded
