@@ -35,7 +35,7 @@ jobs:
         uses: sparkengineering/kicad-action@v2
         if: '!cancelled()'
         with:
-          kicad_sch: my-project.kicad_sch
+          kicad_sch: mykb/mykb.kicad_sch
           sch_erc: true
 
       - name: Run KiCad DRC
@@ -43,7 +43,7 @@ jobs:
         uses: sparkengineering/kicad-action@v2
         if: '!cancelled()'
         with:
-          kicad_pcb: my-project.kicad_pcb
+          kicad_pcb: mykb/mykb.kicad_pcb
           pcb_drc: true
 
       # Upload ERC report only if ERC failed
