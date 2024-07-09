@@ -29,7 +29,5 @@ fp-info-cache
 *.csv
 
 # exports
-fabrication/
-assembly/
-*.zip
+production/
 
