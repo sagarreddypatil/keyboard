@@ -8003,8 +8003,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CL05B104KO5NNNC"
-			(at 215.138 123.444 0)
+		(property "Value" "0.1 µF ±10%"
+			(at 221.996 127.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8021,7 +8021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KO5NNNC.pdf"
 			(at 224.79 130.81 0)
 			(effects
 				(font
@@ -8030,7 +8030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CL05B104KO5NNNC"
 			(at 224.79 130.81 0)
 			(effects
 				(font
@@ -8742,7 +8742,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CL05A106MQ5NUNC"
+		(property "Value" "10 µF ±20%"
 			(at 386.461 187.833 0)
 			(effects
 				(font
@@ -8760,7 +8760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL05A106MQ5NUNC_Spec.pdf"
 			(at 383.54 186.69 0)
 			(effects
 				(font
@@ -8769,7 +8769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CL05A106MQ5NUNC"
 			(at 383.54 186.69 0)
 			(effects
 				(font
@@ -9899,8 +9899,8 @@
 				)
 			)
 		)
-		(property "Value" "0402WGF5101TCE"
-			(at 330.2 178.308 90)
+		(property "Value" "5.1k"
+			(at 317.5 181.356 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9916,7 +9916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
 			(at 317.5 179.07 0)
 			(effects
 				(font
@@ -9925,7 +9925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0402WGF5101TCE"
 			(at 317.5 179.07 0)
 			(effects
 				(font
@@ -9966,7 +9966,7 @@
 				)
 			)
 		)
-		(property "Value" "0402WGF1001TCE"
+		(property "Value" "1k"
 			(at 299.3136 120.65 90)
 			(effects
 				(font
@@ -9983,7 +9983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/1365/1-3044649.pdf"
 			(at 302.26 120.65 0)
 			(effects
 				(font
@@ -9992,7 +9992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0402WGF1001TCE"
 			(at 302.26 120.65 0)
 			(effects
 				(font
@@ -10888,8 +10888,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CL05B104KO5NNNC"
-			(at 250.444 137.922 0)
+		(property "Value" "0.1 µF ±10%"
+			(at 256.54 133.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10906,7 +10906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KO5NNNC.pdf"
 			(at 259.08 130.81 0)
 			(effects
 				(font
@@ -10915,7 +10915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CL05B104KO5NNNC"
 			(at 259.08 130.81 0)
 			(effects
 				(font
@@ -12491,7 +12491,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CL05A105KA5NQNC"
+		(property "Value" "1 µF ±10%"
 			(at 201.168 148.844 90)
 			(effects
 				(font
@@ -12509,7 +12509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL05A105KA5NQNC.pdf"
 			(at 186.69 146.05 0)
 			(effects
 				(font
@@ -12518,7 +12518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CL05A105KA5NQNC"
 			(at 186.69 146.05 0)
 			(effects
 				(font
@@ -12629,8 +12629,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CL05B104KO5NNNC"
-			(at 238.506 123.698 0)
+		(property "Value" "0.1 µF ±10%"
+			(at 245.618 127.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12647,7 +12647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KO5NNNC.pdf"
 			(at 247.65 130.81 0)
 			(effects
 				(font
@@ -12656,7 +12656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CL05B104KO5NNNC"
 			(at 247.65 130.81 0)
 			(effects
 				(font
@@ -13842,7 +13842,7 @@
 				)
 			)
 		)
-		(property "Value" "0402CG200J500NT"
+		(property "Value" "20pF±5%"
 			(at 104.14 193.5511 90)
 			(effects
 				(font
@@ -13859,7 +13859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG200J500NT_C1554.pdf"
 			(at 104.14 199.39 0)
 			(effects
 				(font
@@ -13868,7 +13868,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0402CG200J500NT"
 			(at 104.14 199.39 0)
 			(effects
 				(font
@@ -14384,7 +14384,7 @@
 				)
 			)
 		)
-		(property "Value" "0402CG200J500NT"
+		(property "Value" "20pF±5%"
 			(at 111.76 215.9 90)
 			(effects
 				(font
@@ -14401,7 +14401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG200J500NT_C1554.pdf"
 			(at 104.14 209.55 0)
 			(effects
 				(font
@@ -14410,7 +14410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0402CG200J500NT"
 			(at 104.14 209.55 0)
 			(effects
 				(font
@@ -15195,8 +15195,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CL05A105KA5NQNC"
-			(at 157.861 139.573 0)
+		(property "Value" "1 µF ±10%"
+			(at 141.732 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15213,7 +15213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL05A105KA5NQNC.pdf"
 			(at 154.94 138.43 0)
 			(effects
 				(font
@@ -15222,7 +15222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CL05A105KA5NQNC"
 			(at 154.94 138.43 0)
 			(effects
 				(font
@@ -15602,7 +15602,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CL05A105KA5NQNC"
+		(property "Value" "1 µF ±10%"
 			(at 383.921 116.713 0)
 			(effects
 				(font
@@ -15620,7 +15620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL05A105KA5NQNC.pdf"
 			(at 381 115.57 0)
 			(effects
 				(font
@@ -15629,7 +15629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CL05A105KA5NQNC"
 			(at 381 115.57 0)
 			(effects
 				(font
@@ -16096,8 +16096,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CL05B104KO5NNNC"
-			(at 124.46 123.952 0)
+		(property "Value" "0.1 µF ±10%"
+			(at 125.476 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16114,7 +16114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KO5NNNC.pdf"
 			(at 140.97 121.92 0)
 			(effects
 				(font
@@ -16123,7 +16123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CL05B104KO5NNNC"
 			(at 140.97 121.92 0)
 			(effects
 				(font
@@ -16226,15 +16226,15 @@
 		(dnp no)
 		(uuid "a8ab0db0-2f37-46c0-b108-16f880dd2e24")
 		(property "Reference" "R1"
-			(at 134.62 205.486 90)
+			(at 134.62 207.518 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0402WGF1001TCE"
-			(at 134.62 212.598 90)
+		(property "Value" "1k"
+			(at 134.62 211.582 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16250,7 +16250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/1365/1-3044649.pdf"
 			(at 134.62 209.55 0)
 			(effects
 				(font
@@ -16259,7 +16259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0402WGF1001TCE"
 			(at 134.62 209.55 0)
 			(effects
 				(font
@@ -16638,7 +16638,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CL05A106MQ5NUNC"
+		(property "Value" "10 µF ±20%"
 			(at 351.282 187.706 0)
 			(effects
 				(font
@@ -16656,7 +16656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL05A106MQ5NUNC_Spec.pdf"
 			(at 354.33 186.69 0)
 			(effects
 				(font
@@ -16665,7 +16665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CL05A106MQ5NUNC"
 			(at 354.33 186.69 0)
 			(effects
 				(font
@@ -17246,7 +17246,7 @@
 				)
 			)
 		)
-		(property "Value" "0402WGF1001TCE"
+		(property "Value" "1k"
 			(at 334.8736 129.54 90)
 			(effects
 				(font
@@ -17263,7 +17263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/1365/1-3044649.pdf"
 			(at 337.82 129.54 0)
 			(effects
 				(font
@@ -17272,7 +17272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0402WGF1001TCE"
 			(at 337.82 129.54 0)
 			(effects
 				(font
@@ -17381,8 +17381,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CL05B104KO5NNNC"
-			(at 227.076 137.922 0)
+		(property "Value" "0.1 µF ±10%"
+			(at 232.41 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17399,7 +17399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KO5NNNC.pdf"
 			(at 236.22 130.81 0)
 			(effects
 				(font
@@ -17408,7 +17408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CL05B104KO5NNNC"
 			(at 236.22 130.81 0)
 			(effects
 				(font
@@ -18530,8 +18530,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CL05B104KO5NNNC"
-			(at 180.594 137.668 0)
+		(property "Value" "0.1 µF ±10%"
+			(at 181.61 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18548,7 +18548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KO5NNNC.pdf"
 			(at 190.5 130.81 0)
 			(effects
 				(font
@@ -18557,7 +18557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CL05B104KO5NNNC"
 			(at 190.5 130.81 0)
 			(effects
 				(font
@@ -18873,8 +18873,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CL05B104KO5NNNC"
-			(at 205.486 137.668 0)
+		(property "Value" "0.1 µF ±10%"
+			(at 210.312 133.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18891,7 +18891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KO5NNNC.pdf"
 			(at 213.36 130.81 0)
 			(effects
 				(font
@@ -18900,7 +18900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CL05B104KO5NNNC"
 			(at 213.36 130.81 0)
 			(effects
 				(font
@@ -19212,8 +19212,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CL05B104KO5NNNC"
-			(at 149.86 124.206 0)
+		(property "Value" "0.1 µF ±10%"
+			(at 154.94 122.682 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19230,7 +19230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KO5NNNC.pdf"
 			(at 152.4 121.92 0)
 			(effects
 				(font
@@ -19239,7 +19239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CL05B104KO5NNNC"
 			(at 152.4 121.92 0)
 			(effects
 				(font
@@ -19688,8 +19688,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CL05B104KO5NNNC"
-			(at 192.786 123.698 0)
+		(property "Value" "0.1 µF ±10%"
+			(at 198.628 127.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19706,7 +19706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KO5NNNC.pdf"
 			(at 201.93 130.81 0)
 			(effects
 				(font
@@ -19715,7 +19715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CL05B104KO5NNNC"
 			(at 201.93 130.81 0)
 			(effects
 				(font
@@ -20863,8 +20863,8 @@
 				)
 			)
 		)
-		(property "Value" "0402WGF5101TCE"
-			(at 330.2 176.276 90)
+		(property "Value" "5.1k"
+			(at 317.5 174.498 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20880,7 +20880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
 			(at 317.5 176.53 0)
 			(effects
 				(font
@@ -20889,7 +20889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0402WGF5101TCE"
 			(at 317.5 176.53 0)
 			(effects
 				(font

@@ -22534,7 +22534,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "0402WGF1001TCE"
+		(property "Value" "1k"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "994c3b2b-8a8b-4aa3-ae91-d765407d1635")
@@ -22560,7 +22560,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/1365/1-3044649.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22574,7 +22574,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0402WGF1001TCE"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23044,7 +23044,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "CL05A106MQ5NUNC"
+		(property "Value" "10 µF ±20%"
 			(at 0 -1.16 -90)
 			(layer "B.Fab")
 			(uuid "9371bbd4-d4a6-4bf0-937d-a0e6fb8e1102")
@@ -23070,7 +23070,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL05A106MQ5NUNC_Spec.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23084,7 +23084,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CL05A106MQ5NUNC"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23554,7 +23554,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "CL05A106MQ5NUNC"
+		(property "Value" "10 µF ±20%"
 			(at 0 -1.16 -90)
 			(layer "B.Fab")
 			(uuid "c3ff894f-3849-4111-9d59-b6e82bba6c0f")
@@ -23580,7 +23580,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL05A106MQ5NUNC_Spec.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23594,7 +23594,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CL05A106MQ5NUNC"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24574,7 +24574,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "CL05B104KO5NNNC"
+		(property "Value" "0.1 µF ±10%"
 			(at 0 -1.16 135)
 			(layer "B.Fab")
 			(uuid "c3487598-1af4-4bd6-ad4f-481169404915")
@@ -24600,7 +24600,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KO5NNNC.pdf"
 			(at 0 0 -45)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24614,7 +24614,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CL05B104KO5NNNC"
 			(at 0 0 -45)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -26539,7 +26539,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "CL05B104KO5NNNC"
+		(property "Value" "0.1 µF ±10%"
 			(at 0 -1.16 90)
 			(layer "B.Fab")
 			(uuid "9bfdda02-2a8f-4503-be0d-210aec0dd0ff")
@@ -26565,7 +26565,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KO5NNNC.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -26579,7 +26579,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CL05B104KO5NNNC"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -28199,7 +28199,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "CL05B104KO5NNNC"
+		(property "Value" "0.1 µF ±10%"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "aa628bc5-8d6c-4b75-b2d3-3df9c5a0687e")
@@ -28225,7 +28225,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KO5NNNC.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -28239,7 +28239,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CL05B104KO5NNNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -29000,7 +29000,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "CL05B104KO5NNNC"
+		(property "Value" "0.1 µF ±10%"
 			(at 0 -1.16 90)
 			(layer "B.Fab")
 			(uuid "b8a32592-db17-44ee-a781-12a022cabdbe")
@@ -29026,7 +29026,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KO5NNNC.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -29040,7 +29040,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CL05B104KO5NNNC"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -29219,7 +29219,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "CL05A105KA5NQNC"
+		(property "Value" "1 µF ±10%"
 			(at 0 -1.16 -90)
 			(layer "B.Fab")
 			(uuid "49cca317-bff2-4fb0-8547-0ffbba6d2abf")
@@ -29245,7 +29245,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL05A105KA5NQNC.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -29259,7 +29259,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CL05A105KA5NQNC"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -30020,7 +30020,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "0402WGF1001TCE"
+		(property "Value" "1k"
 			(at 0 -1.17 -90)
 			(layer "B.Fab")
 			(uuid "2d27aa09-f9ed-41f0-a7fd-2d491691cbc1")
@@ -30046,7 +30046,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/1365/1-3044649.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -30060,7 +30060,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0402WGF1001TCE"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -33228,7 +33228,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "0402CG200J500NT"
+		(property "Value" "20pF±5%"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "a69bed6b-9b00-489f-afc4-b9acf303c4f4")
@@ -33254,7 +33254,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG200J500NT_C1554.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -33268,7 +33268,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0402CG200J500NT"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -37318,7 +37318,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "CL05B104KO5NNNC"
+		(property "Value" "0.1 µF ±10%"
 			(at 0 -1.16 90)
 			(layer "B.Fab")
 			(uuid "05bda70c-9653-459d-8f55-8cdca3a04c54")
@@ -37344,7 +37344,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KO5NNNC.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -37358,7 +37358,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CL05B104KO5NNNC"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -40235,7 +40235,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "CL05A105KA5NQNC"
+		(property "Value" "1 µF ±10%"
 			(at 0 -1.16 90)
 			(layer "B.Fab")
 			(uuid "500d2866-7b2e-4837-bc5f-9ef758dc5eb6")
@@ -40261,7 +40261,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL05A105KA5NQNC.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -40275,7 +40275,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CL05A105KA5NQNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -40454,7 +40454,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "CL05B104KO5NNNC"
+		(property "Value" "0.1 µF ±10%"
 			(at 0 -1.16 90)
 			(layer "B.Fab")
 			(uuid "cdb91e41-edf0-47f7-aee7-ea0ef7deb90f")
@@ -40480,7 +40480,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KO5NNNC.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -40494,7 +40494,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CL05B104KO5NNNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -40673,7 +40673,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "0402WGF1001TCE"
+		(property "Value" "1k"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "7fe0d8c6-ff44-4f21-9269-a10da67d1aac")
@@ -40699,7 +40699,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/1365/1-3044649.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -40713,7 +40713,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0402WGF1001TCE"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -40892,7 +40892,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "0402CG200J500NT"
+		(property "Value" "20pF±5%"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "d273a38b-86ed-4fea-8981-669541c30db6")
@@ -40918,7 +40918,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG200J500NT_C1554.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -40932,7 +40932,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0402CG200J500NT"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -46634,7 +46634,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "CL05B104KO5NNNC"
+		(property "Value" "0.1 µF ±10%"
 			(at 0 -1.16 90)
 			(layer "B.Fab")
 			(uuid "0b8c1bd5-38a8-46e8-a261-2aa568c80e82")
@@ -46660,7 +46660,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KO5NNNC.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -46674,7 +46674,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CL05B104KO5NNNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -47654,7 +47654,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "0402WGF5101TCE"
+		(property "Value" "5.1k"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "4f737009-2d76-4dd1-ae13-f247ff906739")
@@ -47680,7 +47680,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -47694,7 +47694,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0402WGF5101TCE"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -47873,7 +47873,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "CL05B104KO5NNNC"
+		(property "Value" "0.1 µF ±10%"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "58d2f979-cf42-4668-8995-d625915b1c29")
@@ -47899,7 +47899,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KO5NNNC.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -47913,7 +47913,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CL05B104KO5NNNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -48092,7 +48092,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "CL05A105KA5NQNC"
+		(property "Value" "1 µF ±10%"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "b51e55c3-d374-41f3-8a4c-ea65057dada7")
@@ -48118,7 +48118,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL05A105KA5NQNC.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -48132,7 +48132,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CL05A105KA5NQNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -48311,7 +48311,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "0402WGF5101TCE"
+		(property "Value" "5.1k"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "250cff19-e64a-4ee7-94a2-3e47a8fbeb80")
@@ -48337,7 +48337,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -48351,7 +48351,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0402WGF5101TCE"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -48530,7 +48530,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "CL05B104KO5NNNC"
+		(property "Value" "0.1 µF ±10%"
 			(at 0 -1.16 135)
 			(layer "B.Fab")
 			(uuid "ec6bd29e-705f-41cf-8902-a787e344fc00")
@@ -48556,7 +48556,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KO5NNNC.pdf"
 			(at 0 0 -45)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -48570,7 +48570,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CL05B104KO5NNNC"
 			(at 0 0 -45)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -55679,55 +55679,56 @@
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
-				(xy 327.82743 92.201252) (xy 327.827975 92.199097) (xy 327.843391 92.202993) (xy 327.843029 92.204423)
-				(xy 327.899159 92.228491) (xy 327.938293 92.286373) (xy 327.944163 92.324072) (xy 327.944163 92.470824)
+				(xy 327.677911 92.135256) (xy 327.691103 92.143734) (xy 327.692865 92.144724) (xy 327.818845 92.194404)
+				(xy 327.835687 92.201046) (xy 327.835692 92.201046) (xy 327.843392 92.202993) (xy 327.84303 92.204422)
+				(xy 327.89916 92.228493) (xy 327.938294 92.286375) (xy 327.944163 92.324072) (xy 327.944163 92.470824)
 				(xy 327.924478 92.537863) (xy 327.871674 92.583618) (xy 327.820163 92.594824) (xy 325.770508 92.594824)
 				(xy 325.70996 92.601335) (xy 325.709958 92.601335) (xy 325.572958 92.652435) (xy 325.455902 92.740063)
 				(xy 325.368274 92.857119) (xy 325.317174 92.994119) (xy 325.317174 92.994121) (xy 325.310663 93.054669)
 				(xy 325.310663 96.351978) (xy 325.317174 96.412526) (xy 325.317174 96.412528) (xy 325.368274 96.549528)
 				(xy 325.455902 96.666585) (xy 325.572959 96.754213) (xy 325.709962 96.805313) (xy 325.737213 96.808242)
 				(xy 325.770508 96.811823) (xy 325.770525 96.811824) (xy 326.920163 96.811824) (xy 326.987202 96.831509)
-				(xy 327.032957 96.884313) (xy 327.044163 96.935824) (xy 327.044163 97.079577) (xy 327.024478 97.146616)
-				(xy 326.971674 97.192371) (xy 326.915929 97.202766) (xy 326.915929 97.203324) (xy 326.912939 97.203324)
-				(xy 326.912767 97.203356) (xy 326.912231 97.203324) (xy 326.72611 97.203324) (xy 326.658148 97.211485)
-				(xy 326.610883 97.205397) (xy 326.61034 97.207549) (xy 326.60264 97.205602) (xy 326.602639 97.205602)
-				(xy 326.512889 97.194824) (xy 326.325437 97.194824) (xy 326.235687 97.205602) (xy 326.233947 97.205811)
-				(xy 326.204379 97.205811) (xy 326.202639 97.205602) (xy 326.112889 97.194824) (xy 325.925437 97.194824)
-				(xy 325.835687 97.205602) (xy 325.833947 97.205811) (xy 325.804379 97.205811) (xy 325.802639 97.205602)
-				(xy 325.712889 97.194824) (xy 325.525437 97.194824) (xy 325.435687 97.205602) (xy 325.433947 97.205811)
-				(xy 325.404379 97.205811) (xy 325.402639 97.205602) (xy 325.312889 97.194824) (xy 325.125437 97.194824)
-				(xy 325.102517 97.197576) (xy 325.057388 97.202995) (xy 324.98848 97.191442) (xy 324.936757 97.14447)
-				(xy 324.91864 97.07699) (xy 324.919489 97.065108) (xy 324.927663 96.99705) (xy 324.927663 96.809598)
-				(xy 324.927148 96.805313) (xy 324.916676 96.718109) (xy 324.916676 96.688539) (xy 324.919313 96.666585)
-				(xy 324.927663 96.59705) (xy 324.927663 96.409598) (xy 324.916885 96.319848) (xy 324.916884 96.319847)
-				(xy 324.916676 96.318109) (xy 324.916676 96.288539) (xy 324.927663 96.19705) (xy 324.927663 96.009597)
-				(xy 324.916676 95.918109) (xy 324.916676 95.888539) (xy 324.927663 95.79705) (xy 324.927663 95.609597)
-				(xy 324.916676 95.518109) (xy 324.916676 95.488539) (xy 324.927663 95.39705) (xy 324.927663 95.209597)
-				(xy 324.916676 95.118109) (xy 324.916676 95.088539) (xy 324.927663 94.99705) (xy 324.927663 94.809597)
-				(xy 324.916676 94.718109) (xy 324.916676 94.688539) (xy 324.927663 94.59705) (xy 324.927663 94.409597)
-				(xy 324.916676 94.318109) (xy 324.916676 94.288539) (xy 324.927663 94.19705) (xy 324.927663 94.009597)
-				(xy 324.916676 93.918109) (xy 324.916676 93.888539) (xy 324.927663 93.79705) (xy 324.927663 93.609597)
-				(xy 324.916676 93.518109) (xy 324.916676 93.488539) (xy 324.927663 93.39705) (xy 324.927663 93.209597)
-				(xy 324.916676 93.118109) (xy 324.916676 93.088539) (xy 324.920742 93.054686) (xy 324.927663 92.99705)
-				(xy 324.927663 92.809598) (xy 324.916885 92.719848) (xy 324.916884 92.719847) (xy 324.916676 92.718109)
-				(xy 324.916676 92.688539) (xy 324.927663 92.59705) (xy 324.927663 92.409598) (xy 324.919491 92.341551)
-				(xy 324.931041 92.272644) (xy 324.978013 92.22092) (xy 325.045492 92.202801) (xy 325.05738 92.203651)
-				(xy 325.125437 92.211824) (xy 325.125438 92.211824) (xy 325.31289 92.211824) (xy 325.335326 92.209129)
-				(xy 325.402639 92.201046) (xy 325.402644 92.201043) (xy 325.410354 92.199096) (xy 325.410899 92.201254)
-				(xy 325.458149 92.195164) (xy 325.526101 92.203324) (xy 325.712222 92.203324) (xy 325.780173 92.195163)
-				(xy 325.82743 92.201252) (xy 325.827975 92.199097) (xy 325.835681 92.201043) (xy 325.835687 92.201046)
-				(xy 325.912247 92.21024) (xy 325.925436 92.211824) (xy 325.925437 92.211824) (xy 326.11289 92.211824)
-				(xy 326.180938 92.203652) (xy 326.202639 92.201046) (xy 326.202639 92.201045) (xy 326.204378 92.200837)
-				(xy 326.233948 92.200837) (xy 326.235686 92.201045) (xy 326.235687 92.201046) (xy 326.257388 92.203652)
-				(xy 326.325436 92.211824) (xy 326.325437 92.211824) (xy 326.51289 92.211824) (xy 326.580938 92.203652)
-				(xy 326.602639 92.201046) (xy 326.602639 92.201045) (xy 326.604378 92.200837) (xy 326.633948 92.200837)
-				(xy 326.635686 92.201045) (xy 326.635687 92.201046) (xy 326.657388 92.203652) (xy 326.725436 92.211824)
-				(xy 326.725437 92.211824) (xy 326.91289 92.211824) (xy 326.980938 92.203652) (xy 327.002639 92.201046)
-				(xy 327.002639 92.201045) (xy 327.004378 92.200837) (xy 327.033948 92.200837) (xy 327.035686 92.201045)
-				(xy 327.035687 92.201046) (xy 327.057388 92.203652) (xy 327.125436 92.211824) (xy 327.125437 92.211824)
-				(xy 327.31289 92.211824) (xy 327.335326 92.209129) (xy 327.402639 92.201046) (xy 327.402644 92.201043)
-				(xy 327.410354 92.199096) (xy 327.410899 92.201254) (xy 327.458149 92.195164) (xy 327.526101 92.203324)
-				(xy 327.712222 92.203324) (xy 327.780173 92.195163)
+				(xy 327.032957 96.884313) (xy 327.044163 96.935824) (xy 327.044163 97.117865) (xy 327.024478 97.184904)
+				(xy 326.971674 97.230659) (xy 326.965654 97.233219) (xy 326.892863 97.261924) (xy 326.885471 97.266081)
+				(xy 326.884633 97.264591) (xy 326.828765 97.285819) (xy 326.760403 97.271385) (xy 326.747218 97.262911)
+				(xy 326.74546 97.261923) (xy 326.602643 97.205603) (xy 326.60264 97.205602) (xy 326.602639 97.205602)
+				(xy 326.557764 97.200213) (xy 326.51289 97.194824) (xy 326.512889 97.194824) (xy 326.325437 97.194824)
+				(xy 326.235687 97.205602) (xy 326.233947 97.205811) (xy 326.204379 97.205811) (xy 326.202639 97.205602)
+				(xy 326.112889 97.194824) (xy 325.925437 97.194824) (xy 325.835687 97.205602) (xy 325.833947 97.205811)
+				(xy 325.804379 97.205811) (xy 325.802639 97.205602) (xy 325.712889 97.194824) (xy 325.525437 97.194824)
+				(xy 325.435687 97.205602) (xy 325.433947 97.205811) (xy 325.404379 97.205811) (xy 325.402639 97.205602)
+				(xy 325.312889 97.194824) (xy 325.125437 97.194824) (xy 325.102517 97.197576) (xy 325.057388 97.202995)
+				(xy 324.98848 97.191442) (xy 324.936757 97.14447) (xy 324.91864 97.07699) (xy 324.919489 97.065108)
+				(xy 324.927663 96.99705) (xy 324.927663 96.809598) (xy 324.927148 96.805313) (xy 324.916676 96.718109)
+				(xy 324.916676 96.688539) (xy 324.919313 96.666585) (xy 324.927663 96.59705) (xy 324.927663 96.409598)
+				(xy 324.916885 96.319848) (xy 324.916884 96.319847) (xy 324.916676 96.318109) (xy 324.916676 96.288539)
+				(xy 324.927663 96.19705) (xy 324.927663 96.009597) (xy 324.916676 95.918109) (xy 324.916676 95.888539)
+				(xy 324.927663 95.79705) (xy 324.927663 95.609597) (xy 324.916676 95.518109) (xy 324.916676 95.488539)
+				(xy 324.927663 95.39705) (xy 324.927663 95.209597) (xy 324.916676 95.118109) (xy 324.916676 95.088539)
+				(xy 324.927663 94.99705) (xy 324.927663 94.809597) (xy 324.916676 94.718109) (xy 324.916676 94.688539)
+				(xy 324.927663 94.59705) (xy 324.927663 94.409597) (xy 324.916676 94.318109) (xy 324.916676 94.288539)
+				(xy 324.927663 94.19705) (xy 324.927663 94.009597) (xy 324.916676 93.918109) (xy 324.916676 93.888539)
+				(xy 324.927663 93.79705) (xy 324.927663 93.609597) (xy 324.916676 93.518109) (xy 324.916676 93.488539)
+				(xy 324.927663 93.39705) (xy 324.927663 93.209597) (xy 324.916676 93.118109) (xy 324.916676 93.088539)
+				(xy 324.920742 93.054686) (xy 324.927663 92.99705) (xy 324.927663 92.809598) (xy 324.916885 92.719848)
+				(xy 324.916884 92.719847) (xy 324.916676 92.718109) (xy 324.916676 92.688539) (xy 324.927663 92.59705)
+				(xy 324.927663 92.409598) (xy 324.919491 92.341551) (xy 324.931041 92.272644) (xy 324.978013 92.22092)
+				(xy 325.045492 92.202801) (xy 325.05738 92.203651) (xy 325.125437 92.211824) (xy 325.125438 92.211824)
+				(xy 325.31289 92.211824) (xy 325.326079 92.21024) (xy 325.402639 92.201046) (xy 325.545463 92.144723)
+				(xy 325.545466 92.14472) (xy 325.552855 92.140567) (xy 325.553693 92.142058) (xy 325.609546 92.120829)
+				(xy 325.677911 92.135256) (xy 325.691103 92.143734) (xy 325.692865 92.144724) (xy 325.818845 92.194404)
+				(xy 325.835687 92.201046) (xy 325.912247 92.21024) (xy 325.925436 92.211824) (xy 325.925437 92.211824)
+				(xy 326.11289 92.211824) (xy 326.151428 92.207195) (xy 326.202639 92.201046) (xy 326.202639 92.201045)
+				(xy 326.204378 92.200837) (xy 326.233948 92.200837) (xy 326.235686 92.201045) (xy 326.235687 92.201046)
+				(xy 326.286897 92.207195) (xy 326.325436 92.211824) (xy 326.325437 92.211824) (xy 326.51289 92.211824)
+				(xy 326.551428 92.207195) (xy 326.602639 92.201046) (xy 326.602639 92.201045) (xy 326.604378 92.200837)
+				(xy 326.633948 92.200837) (xy 326.635686 92.201045) (xy 326.635687 92.201046) (xy 326.686897 92.207195)
+				(xy 326.725436 92.211824) (xy 326.725437 92.211824) (xy 326.91289 92.211824) (xy 326.951428 92.207195)
+				(xy 327.002639 92.201046) (xy 327.002639 92.201045) (xy 327.004378 92.200837) (xy 327.033948 92.200837)
+				(xy 327.035686 92.201045) (xy 327.035687 92.201046) (xy 327.086897 92.207195) (xy 327.125436 92.211824)
+				(xy 327.125437 92.211824) (xy 327.31289 92.211824) (xy 327.326079 92.21024) (xy 327.402639 92.201046)
+				(xy 327.545463 92.144723) (xy 327.545466 92.14472) (xy 327.552855 92.140567) (xy 327.553693 92.142058)
+				(xy 327.609546 92.120829)
 			)
 		)
 	)
