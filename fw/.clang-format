@@ -3,3 +3,4 @@ AccessModifierOffset: -4
 ColumnLimit: 100
 BreakTemplateDeclarations: true
 IncludeBlocks: Regroup
+IndentExternBlock: NoIndent

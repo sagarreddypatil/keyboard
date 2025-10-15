@@ -37,3 +37,22 @@ out = out[:-2]
 out += "\n};"
 
 print(out)
+
+out = "static constexpr const char* kKeymapStr[kRows][kCols] = {"
+for row in layout:
+    out += "{"
+    for key in row:
+        if not isinstance(key, str):
+            continue
+        if "\n" in key:
+            key = key.strip().splitlines()[-1]
+        key = key.upper()
+        if key in symbol_name:
+            key = symbol_name[key]
+        out += '"' + key.replace(" ", "_") + '"' + ", "
+    out = out[:-2]
+    out += "},\n"
+out = out[:-2]
+out += "\n};"
+
+print(out)
