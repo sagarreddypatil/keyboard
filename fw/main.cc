@@ -1,16 +1,12 @@
 #include "util.h"
+#include "config.h"
 
 #include <hardware/gpio.h>
 #include <hardware/timer.h>
 #include <pico/platform/common.h>
 #include <pico/stdio_usb.h>
 #include <pico/stdlib.h>
-
-static constexpr u32 kRowPins[] = {0, 1, 2, 3, 4, 5};
-static constexpr u32 kRows = ARRAY_SIZE(kRowPins);
-
-static constexpr u32 kColPins[] = {6, 7, 8, 9, 10, 19, 11, 12, 13, 14, 15, 16, 17, 18};
-static constexpr u32 kCols = ARRAY_SIZE(kColPins);
+#include <class/hid/hid.h>
 
 void matrix_init()
 {
@@ -35,7 +31,7 @@ void matrix_scan()
     {
         const u32 col = kColPins[ci];
         gpio_put(col, true);
-        sleep_us(10);
+        sleep_us(1); // tested 10us
         {
             for (u32 ri = 0; ri < kRows; ++ri)
             {
