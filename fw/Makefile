@@ -13,13 +13,13 @@ cmake: deps
 clean:
 	rm -rf build
 
-deps: external/pico-sdk
+deps: lib/pico-sdk
 
 clean-deps:
-	rm -rf external
+	rm -rf lib
 
-external/pico-sdk:
-	git clone --depth 1 --branch 2.2.0 https://github.com/raspberrypi/pico-sdk.git external/pico-sdk
-	cd external/pico-sdk && git submodule update --init lib/tinyusb
+lib/pico-sdk:
+	git clone --depth 1 --branch 2.2.0 https://github.com/raspberrypi/pico-sdk.git lib/pico-sdk
+	cd lib/pico-sdk && git submodule update --init lib/tinyusb
 
-.PHONY: cmake clean deps clean-deps
+.PHONY: build release cmake clean deps clean-deps
