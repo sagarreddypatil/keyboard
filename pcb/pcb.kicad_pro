@@ -66,6 +66,10 @@
         [
           "lib_footprint_mismatch|399837500|240400000|d40af38c-e6f5-421c-a2fb-3cb8cea2bfcf|00000000-0000-0000-0000-000000000000",
           ""
+        ],
+        [
+          "starved_thermal|385500000|236680000|bf90f9ee-348c-4807-8f83-67d02b57680d|ec9760f2-a467-4370-b1d0-42b25a17f7d8|B.Cu",
+          ""
         ]
       ],
       "meta": {
@@ -85,9 +89,9 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_filters_mismatch": "ignore",
+        "footprint_filters_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "warning",
         "hole_clearance": "ignore",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",

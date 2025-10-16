@@ -8100,6 +8100,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 179.578 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "98c80f20-6e41-4db9-9ffd-bd353c8010bd")
 		)
@@ -8728,6 +8737,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 305.308 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1b1b36c4-e10c-4519-a244-69ff8fca9069")
 		)
@@ -9031,6 +9049,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 263.398 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b82e76b9-09c4-4c73-acca-dead39938c85")
 		)
@@ -9041,6 +9068,70 @@
 			(project "pcb"
 				(path "/2bd3b49f-bb0a-432b-a9ec-5a984d16db87"
 					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 330.2 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "144ca4c6-adad-4a40-8884-346a08bb41ea")
+		(property "Reference" "ST54"
+			(at 332.74 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Stabilizer"
+			(at 332.74 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_2.00u"
+			(at 330.2 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 330.2 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 330.2 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pcb"
+				(path "/2bd3b49f-bb0a-432b-a9ec-5a984d16db87"
+					(reference "ST54")
 					(unit 1)
 				)
 			)
@@ -9094,6 +9185,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 311.15 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 314.96 212.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9164,6 +9264,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 334.01 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 337.82 212.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9527,6 +9636,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 165.608 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f9150d4b-b8da-4c31-9362-8564c4155835")
 		)
@@ -9590,6 +9708,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 368.3 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 372.11 212.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9678,6 +9805,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 198.12 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 193.548 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9956,6 +10092,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25905"
+			(at 194.31 197.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "39eba9ed-3036-460e-9689-c3c076a95887")
 		)
@@ -10037,6 +10182,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 226.06 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 221.488 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10245,6 +10399,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1658"
+			(at 173.736 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7207bafa-2da0-4ff0-8e20-4073fe1bd7bf")
 		)
@@ -10326,6 +10489,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 184.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 179.578 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10421,6 +10593,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 249.428 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "42db7165-a09e-4690-bf82-f31c5d6b8976")
 		)
@@ -10509,6 +10690,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 305.308 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5e5929c6-90e4-4318-a0d7-30a6418bddee")
 		)
@@ -10572,6 +10762,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 266.7 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 270.51 226.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10936,6 +11135,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 221.488 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ad0b4ce4-0bee-49f1-b709-9551a56ac563")
 		)
@@ -11017,6 +11225,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 267.97 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 263.398 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11112,6 +11329,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 207.518 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e8438000-f57f-4108-8c1c-70a0286626a8")
 		)
@@ -11200,6 +11426,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 193.548 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "45390f1d-3c05-470a-9387-1fa780abfdc6")
 		)
@@ -11210,70 +11445,6 @@
 			(project "pcb"
 				(path "/2bd3b49f-bb0a-432b-a9ec-5a984d16db87"
 					(reference "D58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 386.08 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "42ac053a-7231-470f-8742-38b3a87d22b1")
-		(property "Reference" "H2"
-			(at 388.62 166.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 388.62 168.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 386.08 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 386.08 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 386.08 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "pcb"
-				(path "/2bd3b49f-bb0a-432b-a9ec-5a984d16db87"
-					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -11345,6 +11516,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 212.09 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 207.518 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11440,6 +11620,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 249.428 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "73b75062-0628-4701-99c1-bf07a4b9524f")
 		)
@@ -11521,6 +11710,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 267.97 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 263.398 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11663,6 +11861,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1658"
+			(at 173.736 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0e3db0ce-87ce-44db-873b-7600c9379ec9")
 		)
@@ -11751,6 +11958,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 207.518 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "40f8e14a-dad2-4591-abef-5882b9fa81e8")
 		)
@@ -11829,70 +12045,6 @@
 			(project "pcb"
 				(path "/2bd3b49f-bb0a-432b-a9ec-5a984d16db87"
 					(reference "SW31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 386.08 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ae17712-7576-4395-b945-61e103905373")
-		(property "Reference" "H1"
-			(at 388.62 160.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 388.62 162.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 386.08 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 386.08 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 386.08 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/2bd3b49f-bb0a-432b-a9ec-5a984d16db87"
-					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -12039,6 +12191,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 193.548 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b22d01b1-0dc7-4e7d-bd48-e1730374f060")
 		)
@@ -12102,6 +12263,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 412.75 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 416.56 248.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12266,6 +12436,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 323.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 319.278 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12497,6 +12676,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 263.398 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7086c332-18d6-4156-aff0-7013e670120b")
 		)
@@ -12646,6 +12834,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 184.15 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 179.578 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13009,6 +13206,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 291.338 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d0c21c7f-090a-49b5-bbda-c38f486a4d81")
 		)
@@ -13034,7 +13240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d44cc18-96b1-4f42-be4e-2500dca185f1")
-		(property "Reference" "SW_BOOTSEL0"
+		(property "Reference" "SWL0"
 			(at 369.57 269.2399 90)
 			(effects
 				(font
@@ -13052,7 +13258,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
 			(at 363.22 270.51 0)
 			(effects
 				(font
@@ -13079,6 +13285,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C318884"
+			(at 368.3 270.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3eda2fe5-26cd-4284-9a7e-f04ec9c95b86")
 		)
@@ -13088,7 +13303,7 @@
 		(instances
 			(project ""
 				(path "/2bd3b49f-bb0a-432b-a9ec-5a984d16db87"
-					(reference "SW_BOOTSEL0")
+					(reference "SWL0")
 					(unit 1)
 				)
 			)
@@ -13160,6 +13375,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 337.82 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 333.248 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13457,6 +13681,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 319.278 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a92d5436-f5c1-434a-b433-3aafb97f5d60")
 		)
@@ -13538,6 +13771,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 240.03 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 235.458 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13827,6 +14069,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 254 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 249.428 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14260,6 +14511,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 151.638 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "974b4611-02c6-4e8b-82c5-dfb5abecb534")
 		)
@@ -14270,6 +14530,70 @@
 			(project "pcb"
 				(path "/2bd3b49f-bb0a-432b-a9ec-5a984d16db87"
 					(reference "D42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 130.81 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6888393e-0fa2-4fb9-a05b-972cc35fbfd0")
+		(property "Reference" "ST55"
+			(at 133.35 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Stabilizer"
+			(at 133.35 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_2.00u"
+			(at 130.81 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 130.81 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pcb"
+				(path "/2bd3b49f-bb0a-432b-a9ec-5a984d16db87"
+					(reference "ST55")
 					(unit 1)
 				)
 			)
@@ -14416,6 +14740,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 207.518 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ca655a41-b20f-443f-a1ea-2cef387b37d1")
 		)
@@ -14552,6 +14885,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 270.51 212.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bd740cbc-6109-4103-a70e-b8624dae3427")
 		)
@@ -14661,7 +15003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_2.25u"
 			(at 151.13 143.51 0)
 			(effects
 				(font
@@ -14912,6 +15254,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 221.488 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c1b6b790-d264-4661-abc7-471777239872")
 		)
@@ -15000,6 +15351,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 165.608 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2f93b5e9-86b0-4fc6-9284-328050b587ec")
 		)
@@ -15070,6 +15430,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 360.68 212.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a5e0fdca-149f-46ba-9b0a-38596f54d330")
 		)
@@ -15133,6 +15502,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 255.27 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 259.08 212.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15228,6 +15606,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 151.638 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9ed79ff7-cacd-41f0-8f1a-81914a4eda11")
 		)
@@ -15309,6 +15696,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 240.03 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 235.458 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15463,6 +15859,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 254 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 249.428 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15673,6 +16078,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25092"
+			(at 252.73 254.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "813dd521-219c-45f8-817b-c82f8e64960c")
 		)
@@ -15761,6 +16175,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 333.248 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9d356ba0-1ecf-46cd-9aed-6883c978e9b9")
 		)
@@ -15824,6 +16247,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 299.72 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 303.53 212.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15987,6 +16419,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 291.338 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2fab880b-5e25-478e-8744-df34f6a87fcd")
 		)
@@ -16096,7 +16537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.50u"
 			(at 332.74 115.57 0)
 			(effects
 				(font
@@ -16201,6 +16642,70 @@
 			(project "pcb"
 				(path "/2bd3b49f-bb0a-432b-a9ec-5a984d16db87"
 					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 203.2 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89d876de-bfb3-4895-a40b-33c48d410395")
+		(property "Reference" "ST69"
+			(at 205.74 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Stabilizer"
+			(at 205.74 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_6.25u"
+			(at 203.2 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 203.2 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/2bd3b49f-bb0a-432b-a9ec-5a984d16db87"
+					(reference "ST69")
 					(unit 1)
 				)
 			)
@@ -16347,6 +16852,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 263.398 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b9f00ca3-7e61-4fc4-b1e5-44e866409dd2")
 		)
@@ -16428,6 +16942,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 281.94 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 277.368 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16523,6 +17046,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 179.578 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "af900994-1f3c-44ca-86a9-c2d1cccf509b")
 		)
@@ -16533,6 +17065,70 @@
 			(project "pcb"
 				(path "/2bd3b49f-bb0a-432b-a9ec-5a984d16db87"
 					(reference "D68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 344.17 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e3dda2d-71b7-40d4-97cc-7bc33d43a69d")
+		(property "Reference" "ST27"
+			(at 346.71 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Stabilizer"
+			(at 346.71 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_2.00u"
+			(at 344.17 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 344.17 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 344.17 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pcb"
+				(path "/2bd3b49f-bb0a-432b-a9ec-5a984d16db87"
+					(reference "ST27")
 					(unit 1)
 				)
 			)
@@ -16604,6 +17200,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 323.85 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 319.278 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16953,6 +17558,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C19702"
+			(at 201.93 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "26a44e37-9104-4129-aa39-86d4d3705ea4")
 		)
@@ -17034,6 +17648,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 212.09 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 207.518 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17328,6 +17951,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 249.428 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cdde274b-b0a7-4650-9c5f-009b6e315ef9")
 		)
@@ -17416,6 +18048,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 235.458 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7ddf91f2-1dd4-4d78-a67a-22d69e9b7f9a")
 		)
@@ -17497,6 +18138,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 281.94 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 277.368 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17633,6 +18283,15 @@
 		)
 		(property "Description" "A microcontroller by Raspberry Pi"
 			(at 281.94 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2040"
+			(at 284.0833 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17961,6 +18620,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 193.548 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8a58e422-170a-4de1-b4cb-f5f6843a7d90")
 		)
@@ -18049,6 +18717,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 193.548 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3eef9451-c6af-4591-a2d5-cfdcca934d2c")
 		)
@@ -18130,6 +18807,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 156.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 151.638 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18272,6 +18958,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25092"
+			(at 252.73 248.158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "86ebb673-1ba7-4ef7-86b0-738a7831dcfd")
 		)
@@ -18360,6 +19055,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 277.368 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "908ba269-71f3-49f2-9139-7040378b79a4")
 		)
@@ -18427,6 +19131,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2927037"
+			(at 175.26 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "S1"
 			(uuid "f3a35945-bfa7-4e98-97e7-9d8af4806a27")
 		)
@@ -18482,70 +19195,6 @@
 			(project ""
 				(path "/2bd3b49f-bb0a-432b-a9ec-5a984d16db87"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 386.08 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b70a27ca-87b0-4377-bffb-9dd6553506c0")
-		(property "Reference" "H3"
-			(at 388.62 172.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 388.62 175.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 386.08 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 386.08 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 386.08 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "pcb"
-				(path "/2bd3b49f-bb0a-432b-a9ec-5a984d16db87"
-					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -18643,7 +19292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_2.00u"
 			(at 332.74 101.6 0)
 			(effects
 				(font
@@ -18823,6 +19472,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 305.308 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6ef5c4ec-a9dd-458c-9bf1-fc61c526b490")
 		)
@@ -18904,6 +19562,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 170.18 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 165.608 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19060,6 +19727,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 184.15 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 179.578 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19271,6 +19947,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C97521"
+			(at 419.1 270.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "55ec840b-bcde-4c3a-83ff-7a38cd7bd6b9")
 		)
@@ -19377,6 +20062,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 277.368 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fe819269-e00b-41cb-92a4-65d64db23681")
 		)
@@ -19439,6 +20133,15 @@
 		)
 		(property "Description" "1A 20V Fixed LDO Linear Regulator, 3.3V, SOT-89/SOT-223/TO-220/TO-252/TO-263"
 			(at 213.36 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6186"
+			(at 213.36 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19537,6 +20240,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 151.638 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7c00089f-19c7-4fde-b737-c7e437d863d6")
 		)
@@ -19618,6 +20330,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 156.21 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 151.638 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19713,6 +20434,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 291.338 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f0e2f5e8-f6a9-4b46-abda-9c25a61aec48")
 		)
@@ -19801,6 +20531,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 165.608 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "566b56a0-ef18-43b2-a6d8-3579f40bb4ec")
 		)
@@ -19864,6 +20603,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 322.58 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 326.39 212.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20020,6 +20768,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 240.03 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 235.458 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20247,6 +21004,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 303.53 224.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a3ea85c8-fb5f-40a4-b798-b733685fcb8e")
 		)
@@ -20328,6 +21094,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 170.18 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 165.608 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20491,6 +21266,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 277.368 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8e5a5d84-7c38-4de8-adc7-ae8895563e92")
 		)
@@ -20553,6 +21337,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 374.65 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 376.174 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20641,6 +21434,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 240.03 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 235.458 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20870,6 +21672,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 333.248 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ca2d61f2-6b5f-4eb1-8483-54104e2799e8")
 		)
@@ -20951,6 +21762,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 226.06 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 221.488 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21089,6 +21909,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 345.44 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 349.25 212.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21386,6 +22215,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 291.338 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ff20ff81-a089-493d-a1f0-b69fc652b817")
 		)
@@ -21535,6 +22373,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 156.21 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 151.638 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21698,6 +22545,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 193.548 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3397d6f9-64c2-4bc7-bbbd-460fdca76999")
 		)
@@ -21773,70 +22629,6 @@
 			(project "pcb"
 				(path "/2bd3b49f-bb0a-432b-a9ec-5a984d16db87"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 386.08 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb9f6cf9-8e7c-4235-96a3-78ff84f40e71")
-		(property "Reference" "H4"
-			(at 388.62 179.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 388.62 181.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 386.08 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 386.08 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 386.08 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "pcb"
-				(path "/2bd3b49f-bb0a-432b-a9ec-5a984d16db87"
-					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -21976,6 +22768,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 309.88 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 305.308 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22266,6 +23067,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 295.91 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 291.338 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22628,6 +23438,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 221.488 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f7b553b9-7a5d-43e6-aa40-b38e4ec36059")
 		)
@@ -22688,6 +23507,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 194.31 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25905"
+			(at 194.31 203.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22851,6 +23679,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 179.578 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5cd92e14-8f15-4816-9faf-761fbc96c7a6")
 		)
@@ -22932,6 +23769,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 323.85 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 319.278 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
