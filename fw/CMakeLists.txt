@@ -12,7 +12,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 add_executable(kbfw src/main.cc src/keyboard.cc src/usb_descriptors.c)
 target_include_directories(kbfw PUBLIC ./src)
 target_link_libraries(kbfw pico_stdlib hardware_gpio tinyusb_device tinyusb_board)
-pico_enable_stdio_usb(kbfw 0)
+pico_enable_stdio_usb(kbfw 1)
 pico_enable_stdio_uart(kbfw 0)
 
 pico_set_binary_type(kbfw copy_to_ram)

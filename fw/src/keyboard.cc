@@ -46,17 +46,12 @@ void Keyboard::scan()
     {
         for (u32 ci = 0; ci < kCols; ++ci)
         {
-            if (!pressed[ri][ci])
-            {
-                continue;
-            }
-
-            printf("key fn=%d row=%d col=%d name=%s\n", fn, ri, ci, kKeymapStr[ri][ci]);
             const u8 kc = fn ? kFnKeymap[ri][ci] : kKeymap[ri][ci];
-            if (!kc)
+            if (!pressed[ri][ci] || !kc)
             {
                 continue;
             }
+            printf("key fn=%d row=%d col=%d name=%s\n", fn, ri, ci, kKeymapStr[ri][ci]);
             if (kc >= HID_KEY_CONTROL_LEFT && kc <= HID_KEY_GUI_RIGHT)
             {
                 m_modifiers |= (1 << (kc - HID_KEY_CONTROL_LEFT));

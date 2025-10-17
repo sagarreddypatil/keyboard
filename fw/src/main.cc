@@ -1,6 +1,7 @@
 #include "keyboard.h"
 
 #include <bsp/board.h>
+#include <pico/stdio_usb.h>
 #include <stdlib.h>
 #include <tusb.h>
 
@@ -8,14 +9,14 @@ Keyboard kb;
 
 void hid_task()
 {
-    const uint32_t interval_ms = 10;
-    static uint32_t start_ms = 0;
+    const u64 interval_us = 2000;
+    static u64 start_us = 0;
 
-    if (board_millis() - start_ms < interval_ms)
+    if (get_absolute_time() - start_us < interval_us)
     {
         return;
     }
-    start_ms += interval_ms;
+    start_us += interval_us;
 
     kb.scan();
     if (tud_suspended())
@@ -32,6 +33,8 @@ int main(void)
 {
     board_init();
     tusb_init();
+
+    stdio_usb_init();
 
     kb.init();
     while (1)
