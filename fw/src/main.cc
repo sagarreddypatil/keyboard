@@ -18,16 +18,13 @@ void hid_task()
     start_ms += interval_ms;
 
     kb.scan();
-    if (kb.keys_pressed())
+    if (tud_suspended())
     {
-        if (tud_suspended())
-        {
-            tud_remote_wakeup();
-        }
-        else if (tud_hid_ready())
-        {
-            tud_hid_keyboard_report(0x01, kb.m_modifiers, kb.m_keycodes);
-        }
+        tud_remote_wakeup();
+    }
+    else if (tud_hid_ready())
+    {
+        tud_hid_keyboard_report(0x01, kb.m_modifiers, kb.m_keycodes);
     }
 }
 
