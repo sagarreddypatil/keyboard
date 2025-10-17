@@ -25,6 +25,8 @@
 
 #include "tusb.h"
 
+#include <bsp/board.h>
+
 /* A combination of interfaces must have a unique product id, since PC will save device driver after
  * the first plug. Same VID/PID with different interface e.g MSC (first), then CDC (later) will
  * possibly cause system error on PC.
@@ -37,7 +39,7 @@
     (0x4000 | _PID_MAP(CDC, 0) | _PID_MAP(MSC, 1) | _PID_MAP(HID, 2) | _PID_MAP(MIDI, 3) |         \
      _PID_MAP(VENDOR, 4))
 
-#define USB_VID 0xcafe
+#define USB_VID 0xfbae
 #define USB_BCD 0x0200
 
 //--------------------------------------------------------------------+
@@ -175,12 +177,20 @@ uint8_t const *tud_descriptor_configuration_cb(uint8_t index)
 // array of pointer to string descriptors
 char const *string_desc_arr[] = {
     (const char[]){0x09, 0x04}, // 0: is supported language is English (0x0409)
-    "rktrlng",                  // 1: Manufacturer
-    "TinyUSB keyboard",         // 2: Product
-    "123456",                   // 3: Serials, should use chip ID
+    "Sagar",                    // 1: Manufacturer
+    "Keyboard 0",               // 2: Product
+    NULL,                       // 3: Serials, chip ID passed later.
 };
 
 static uint16_t _desc_str[32];
+
+enum
+{
+    STRID_LANGID = 0,
+    STRID_MANUFACTURER,
+    STRID_PRODUCT,
+    STRID_SERIAL,
+};
 
 // Invoked when received GET STRING DESCRIPTOR request
 // Application return pointer to descriptor, whose contents must exist long enough for transfer to
@@ -191,13 +201,16 @@ uint16_t const *tud_descriptor_string_cb(uint8_t index, uint16_t langid)
 
     uint8_t chr_count;
 
-    if (index == 0)
+    switch (index)
     {
+    case STRID_LANGID:
         memcpy(&_desc_str[1], string_desc_arr[0], 2);
         chr_count = 1;
-    }
-    else
-    {
+        break;
+    case STRID_SERIAL:
+        chr_count = board_usb_get_serial(_desc_str + 1, 32);
+        break;
+    default:
         // Note: the 0xEE index string is a Microsoft OS 1.0 Descriptors.
         // https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/microsoft-defined-usb-descriptors
 
@@ -216,6 +229,7 @@ uint16_t const *tud_descriptor_string_cb(uint8_t index, uint16_t langid)
         {
             _desc_str[1 + i] = str[i];
         }
+        break;
     }
 
     // first byte is length (including header), second byte is string type

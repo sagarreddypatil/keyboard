@@ -16,7 +16,6 @@ public:
 
     void init();
     void scan();
-    bool keys_pressed() const;
 
     u8 m_keycodes[6]{};
     u8 m_modifiers = 0;

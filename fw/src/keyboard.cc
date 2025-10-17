@@ -72,17 +72,3 @@ void Keyboard::scan()
         m_keycodes[i] = 0;
     }
 }
-
-bool Keyboard::keys_pressed() const
-{
-    if (m_modifiers)
-    {
-        return true;
-    }
-    for (u32 i = 0; i < ARRAY_SIZE(m_keycodes); ++i)
-    {
-        if (m_keycodes[i] != 0)
-            return true;
-    }
-    return false;
-}
