@@ -36,9 +36,10 @@ void Keyboard::scan()
                 const u32 row = kRowPins[ri];
                 if (gpio_get(row))
                 {
-                    const u8 kc = kKeymap[ri][ci];
-                    printf("key row=%d col=%d name=%s\n", ri, ci, kKeymapStr[ri][ci]);
+                    const bool fn = ri == kFnRow && ci == kFnCol;
+                    printf("key fn=%d row=%d col=%d name=%s\n", fn, ri, ci, kKeymapStr[ri][ci]);
 
+                    const u8 kc = fn ? kFnKeymap[ri][ci] : kKeymap[ri][ci];
                     if (kc >= HID_KEY_CONTROL_LEFT && kc <= HID_KEY_GUI_RIGHT)
                     {
                         m_modifiers |= (1 << (kc - HID_KEY_CONTROL_LEFT));
@@ -58,19 +59,6 @@ void Keyboard::scan()
     }
 }
 
-bool Keyboard::keys_changed() const
-{
-    if (m_modifiers != m_prev_modifiers)
-        return true;
-
-    for (u32 i = 0; i < ARRAY_SIZE(m_keycodes); ++i)
-    {
-        if (m_keycodes[i] != m_prev_keycodes[i])
-            return true;
-    }
-    return false;
-}
-
 bool Keyboard::keys_pressed() const
 {
     if (m_modifiers)
@@ -83,15 +71,4 @@ bool Keyboard::keys_pressed() const
             return true;
     }
     return false;
-}
-
-void Keyboard::next()
-{
-    m_prev_modifiers = m_modifiers;
-    m_modifiers = 0;
-    for (u32 i = 0; i < ARRAY_SIZE(m_keycodes); ++i)
-    {
-        m_prev_keycodes[i] = m_keycodes[i];
-        m_keycodes[i] = 0;
-    }
 }

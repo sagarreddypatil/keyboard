@@ -6,26 +6,6 @@
 
 Keyboard kb;
 
-static void send_hid_report()
-{
-    if (!tud_hid_ready())
-    {
-        return;
-    }
-
-    if (kb.keys_pressed())
-    {
-        tud_hid_keyboard_report(0x01, kb.m_modifiers, kb.m_keycodes);
-    }
-    else
-    {
-        if (kb.keys_changed())
-        {
-            tud_hid_keyboard_report(0x01, 0, NULL);
-        }
-    }
-}
-
 void hid_task()
 {
     const uint32_t interval_ms = 10;
@@ -38,13 +18,16 @@ void hid_task()
     start_ms += interval_ms;
 
     kb.scan();
-    if (tud_suspended() && kb.keys_pressed())
+    if (kb.keys_pressed())
     {
-        tud_remote_wakeup();
-    }
-    else
-    {
-        send_hid_report();
+        if (tud_suspended())
+        {
+            tud_remote_wakeup();
+        }
+        else if (tud_hid_ready())
+        {
+            tud_hid_keyboard_report(0x01, kb.m_modifiers, kb.m_keycodes);
+        }
     }
 }
 
