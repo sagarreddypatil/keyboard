@@ -14,6 +14,9 @@ typedef int32_t i64;
 
 #define ARRAY_SIZE(arr) (sizeof(arr) / sizeof((arr)[0]))
 
+#define Min(a, b) ((a) < (b) ? (a) : (b))
+#define Max(a, b) ((a) > (b) ? (a) : (b))
+
 template <typename T>
 class __Deferrer
 {

@@ -41,40 +41,22 @@ void hid_task()
 
 void fb_task()
 {
-    static constexpr u64 kIntervalMicros = 1000 * 1000;
-    static u64 start_us = 0;
-
-    const u64 t = time_micros();
-    if (t < start_us)
+    u8 *buf = &fb[0][0];
+    while (getchar() != 0)
+        ;
+    for (u32 i = 0; i < sizeof(fb); ++i)
     {
-        return;
-    }
-    start_us = t + kIntervalMicros;
-
-    for (u32 j = 0; j < 16; ++j)
-    {
-        for (u32 i = 0; i < 128; ++i)
+        u8 val = getchar();
+        if (val == 0)
+            break;
+        if (val == 1)
         {
-            fb[j][i] = 0;
+            val = ~u8(getchar());
+            if (val == 0xff)
+                break;
         }
+        buf[i] = val;
     }
-    for (u32 j = 0; j < 8; ++j)
-    {
-        for (u32 i = 0; i < 32; ++i)
-        {
-            fb[j][i] = 0xFF;
-        }
-    }
-    // static bool on = false;
-    // for (u32 j = 0; j < 16; j++)
-    // {
-    //     const bool ron = j < 8 ? on : !on;
-    //     for (u32 i = 0; i < 128; i++)
-    //     {
-    //         srn_display_pixels[j][i] = ron ? 0xFF : 0x00;
-    //     }
-    // }
-    // on = !on;
 }
 
 void display_task()
