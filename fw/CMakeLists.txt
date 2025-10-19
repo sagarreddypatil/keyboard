@@ -9,9 +9,9 @@ project(kbfw C CXX)
 pico_sdk_init()
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-add_executable(kbfw src/main.cc src/keyboard.cc src/usb_descriptors.c)
+add_executable(kbfw src/main.cc src/keyboard.cc src/usb_descriptors.c src/sh1107.cc)
 target_include_directories(kbfw PUBLIC ./src)
-target_link_libraries(kbfw pico_stdlib hardware_gpio tinyusb_device tinyusb_board)
+target_link_libraries(kbfw pico_stdlib pico_multicore hardware_gpio hardware_i2c tinyusb_device tinyusb_board)
 pico_enable_stdio_usb(kbfw 1)
 pico_enable_stdio_uart(kbfw 0)
 
