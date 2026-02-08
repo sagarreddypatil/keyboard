@@ -1,5 +1,6 @@
 #pragma once
 
+#include <pico/time.h>
 #include <stdint.h>
 
 typedef uint8_t u8;
@@ -11,6 +12,9 @@ typedef int8_t i8;
 typedef int16_t i16;
 typedef int32_t i32;
 typedef int32_t i64;
+
+#define LIKELY(x) __builtin_expect(static_cast<bool>(x), 1)
+#define UNLIKELY(x) __builtin_expect(static_cast<bool>(x), 0)
 
 #define ARRAY_SIZE(arr) (sizeof(arr) / sizeof((arr)[0]))
 
@@ -40,3 +44,8 @@ private:
     {                                                                                              \
         [&] { x; }                                                                                 \
     }
+
+static u64 time_micros()
+{
+    return to_us_since_boot(get_absolute_time());
+}

@@ -5,18 +5,21 @@
 #include <hardware/i2c.h>
 #include <pico/multicore.h>
 #include <pico/stdio_usb.h>
-#include <pico/time.h>
 #include <stdlib.h>
 #include <tusb.h>
 
 Keyboard kb;
 
-static u64 time_micros()
+static void send_kb_report()
 {
-    return to_us_since_boot(get_absolute_time());
+    if (UNLIKELY(!tud_hid_ready()))
+        return;
+
+    if (kb.scan())
+        tud_hid_keyboard_report(0x01, kb.m_modifiers, kb.m_keycodes);
 }
 
-void hid_task()
+static void hid_task()
 {
     const u64 kIntervalMicros = 2000;
     static u64 start_us = 0;
@@ -28,18 +31,17 @@ void hid_task()
     }
     start_us = t + kIntervalMicros;
 
-    kb.scan();
-    if (tud_suspended())
+    if (tud_suspended() && kb.scan())
     {
         tud_remote_wakeup();
     }
-    else if (tud_hid_ready())
+    else
     {
-        tud_hid_keyboard_report(0x01, kb.m_modifiers, kb.m_keycodes);
+        send_kb_report();
     }
 }
 
-void fb_task()
+static void fb_task()
 {
     u8 *buf = &fb[0][0];
     while (getchar() != 0)
@@ -58,14 +60,6 @@ void fb_task()
         buf[i] = val;
     }
 }
-
-void display_task()
-{
-    srn_refresh();
-}
-
-static constexpr u32 kOledSda = 24;
-static constexpr u32 kOledScl = 25;
 
 void core1_entry();
 
@@ -100,7 +94,7 @@ void core1_entry()
     while (1)
     {
         fb_task();
-        display_task();
+        srn_refresh();
     }
 }
 

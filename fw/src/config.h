@@ -3,6 +3,8 @@
 #include "class/hid/hid.h"
 #include "util.h"
 
+static constexpr u64 kDebounceIntervalUs = 10000;
+
 static constexpr u32 kRowPins[] = {0, 1, 2, 3, 4, 5};
 static constexpr u32 kRows = ARRAY_SIZE(kRowPins);
 
@@ -29,7 +31,7 @@ static constexpr u8 kFnKeymap[kRows][kCols] = {
 };
 // clang-format on
 
-// who needs caps lock anyway...
+// Who needs caps lock anyway...
 static constexpr u32 kFnRow = 3;
 static constexpr u32 kFnCol = 0;
 
@@ -41,3 +43,6 @@ static constexpr const char *kKeymapStr[kRows][kCols] = {
     {"FN", "A", "S", "D", "F", "G", "H", "J", "K", "L", "SEMICOLON", "APOSTROPHE", "ENTER"},
     {"SHIFT", "Z", "X", "C", "V", "B", "N", "M", "COMMA", "PERIOD", "SLASH"},
     {"CTRL", "WIN", "ALT", "SPACE"}};
+
+static constexpr u32 kOledSda = 24;
+static constexpr u32 kOledScl = 25;
