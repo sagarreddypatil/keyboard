@@ -3,7 +3,7 @@
 #include "class/hid/hid.h"
 #include "util.h"
 
-static constexpr u64 kDebounceIntervalUs = 10000;
+static constexpr u64 kDebounceIntervalUs = 5000;
 
 static constexpr u32 kRowPins[] = {0, 1, 2, 3, 4, 5};
 static constexpr u32 kRows = ARRAY_SIZE(kRowPins);
@@ -34,15 +34,6 @@ static constexpr u8 kFnKeymap[kRows][kCols] = {
 // Who needs caps lock anyway...
 static constexpr u32 kFnRow = 3;
 static constexpr u32 kFnCol = 0;
-
-static constexpr const char *kKeymapStr[kRows][kCols] = {
-    {"ESC", "F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8", "F9", "F10", "F11", "F12"},
-    {"GRAVE", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "MINUS", "EQUAL", "BACKSPACE"},
-    {"TAB", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "BRACKET_LEFT", "BRACKET_RIGHT",
-     "BACKSLASH"},
-    {"FN", "A", "S", "D", "F", "G", "H", "J", "K", "L", "SEMICOLON", "APOSTROPHE", "ENTER"},
-    {"SHIFT", "Z", "X", "C", "V", "B", "N", "M", "COMMA", "PERIOD", "SLASH"},
-    {"CTRL", "WIN", "ALT", "SPACE"}};
 
 static constexpr u32 kOledSda = 24;
 static constexpr u32 kOledScl = 25;

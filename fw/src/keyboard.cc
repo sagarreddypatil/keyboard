@@ -67,26 +67,24 @@ bool Keyboard::scan()
     m_modifiers = 0;
     m_fn |= key_states[kFnRow][kFnCol];
     m_fn &= any_keys_down;
-    bool any_pressed = false;
+    m_cur_any = false;
     for (u32 ri = 0; ri < kRows; ++ri)
     {
         for (u32 ci = 0; ci < kCols; ++ci)
         {
             const u8 kc = m_fn ? kFnKeymap[ri][ci] : kKeymap[ri][ci];
-            const char *const str = kKeymapStr[ri][ci];
             if (LIKELY(!key_states[ri][ci] || !kc))
             {
                 continue;
             }
-            // printf("key fn=%d row=%d col=%d name=%s\n", fn, ri, ci, kKeymapStr[ri][ci]);
             if (kc >= HID_KEY_CONTROL_LEFT && kc <= HID_KEY_GUI_RIGHT)
             {
-                any_pressed |= true;
+                m_cur_any |= true;
                 m_modifiers |= (1 << (kc - HID_KEY_CONTROL_LEFT));
             }
             else if (i < ARRAY_SIZE(m_keycodes))
             {
-                any_pressed |= true;
+                m_cur_any |= true;
                 m_keycodes[i++] = kc;
             }
         }
@@ -96,7 +94,11 @@ bool Keyboard::scan()
         m_keycodes[i] = 0;
 
     // Return.
-    const bool ret = any_pressed || (m_prev_any && !any_pressed);
-    m_prev_any = any_pressed;
+    const bool ret = m_cur_any || (m_prev_any && !m_cur_any);
     return ret;
+}
+
+void Keyboard::commit()
+{
+    m_prev_any = m_cur_any;
 }

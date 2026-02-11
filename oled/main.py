@@ -48,7 +48,7 @@ ports = serial.tools.list_ports.comports()
 kbport = None
 for port, desc, hwid in sorted(ports):
     print(f"{port}: {desc} [{hwid}]")
-    if desc == "Keyboard 0":
+    if "Keyboard 0" in desc:
         kbport = port
 
 assert kbport is not None

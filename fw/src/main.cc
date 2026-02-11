@@ -12,25 +12,15 @@ Keyboard kb;
 
 static void send_kb_report()
 {
-    if (UNLIKELY(!tud_hid_ready()))
-        return;
-
-    if (kb.scan())
+    if (kb.scan() && tud_hid_ready())
+    {
         tud_hid_keyboard_report(0x01, kb.m_modifiers, kb.m_keycodes);
+        kb.commit();
+    }
 }
 
 static void hid_task()
 {
-    const u64 kIntervalMicros = 2000;
-    static u64 start_us = 0;
-
-    const u64 t = time_micros();
-    if (t < start_us)
-    {
-        return;
-    }
-    start_us = t + kIntervalMicros;
-
     if (tud_suspended() && kb.scan())
     {
         tud_remote_wakeup();
@@ -44,9 +34,11 @@ static void hid_task()
 static void fb_task()
 {
     u8 *buf = &fb[0][0];
+    static constexpr u32 kFbSize = sizeof(fb);
+
     while (getchar() != 0)
         ;
-    for (u32 i = 0; i < sizeof(fb); ++i)
+    for (u32 i = 0; i < kFbSize; ++i)
     {
         u8 val = getchar();
         if (val == 0)
