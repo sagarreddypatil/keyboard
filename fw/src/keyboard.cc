@@ -29,6 +29,7 @@ bool Keyboard::scan()
 {
     // Scan.
     bool key_states[kRows][kCols]{};
+    bool any_keys_down = false;
     for (u32 ci = 0; ci < kCols; ++ci)
     {
         const u32 col = kColPins[ci];
@@ -38,6 +39,7 @@ bool Keyboard::scan()
         {
             const u32 row = kRowPins[ri];
             key_states[ri][ci] = gpio_get(row);
+            any_keys_down |= key_states[ri][ci];
         }
         gpio_put(col, false);
     }
@@ -63,13 +65,14 @@ bool Keyboard::scan()
     // Populate outputs.
     u32 i = 0;
     m_modifiers = 0;
-    const bool fn = key_states[kFnRow][kFnCol];
+    m_fn |= key_states[kFnRow][kFnCol];
+    m_fn &= any_keys_down;
     bool any_pressed = false;
     for (u32 ri = 0; ri < kRows; ++ri)
     {
         for (u32 ci = 0; ci < kCols; ++ci)
         {
-            const u8 kc = fn ? kFnKeymap[ri][ci] : kKeymap[ri][ci];
+            const u8 kc = m_fn ? kFnKeymap[ri][ci] : kKeymap[ri][ci];
             const char *const str = kKeymapStr[ri][ci];
             if (LIKELY(!key_states[ri][ci] || !kc))
             {

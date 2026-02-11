@@ -20,6 +20,8 @@ public:
     // True if any(keys pressed), or if falling edge on any(keys pressed).
     bool scan();
 
+    bool m_fn = false;
+
     u8 m_keycodes[6]{};
     u8 m_modifiers = 0;
     bool m_prev_any = false;
